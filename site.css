@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1FAFF;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    color: black;
+    height: auto;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    font: 18px;
+    text-align: right;
+    padding: 20px 200px;
+}
+
+.menu>div {
+    float: left;
+    margin-left: 20px;
+}   
+
+.menu>a {
+    margin-right: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.hero {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 100px 200px;
+}
+
+.hero_content {
+    text-align: left;
+    width: 35%;
+    height: auto;
+    margin: 10px 10px;
+}
+
+.hero_image {
+    width: 65%;
+    height: auto;
+    text-align: center;
+}
+
+.hero_headline {
+    font-size: 40px;
+}
+
+.hero_subtext {
+    font-size: 20px;
+}
+
+.hero_image>img {
+    width: 300px;
+    margin: -50px;
+}
+
+.hero_minimage {
+    margin-top: 20px;
+}
+
+.tanitim {
+    width: 100%;
+    height: auto;
+    padding: 100px 200px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.tanitim_featured {
+    display: inline-flex;
+    align-content: stretch;
+    text-align: center;
+}
+
+.tanitim_featured_item {
+    margin-right: 50px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.tanitim_featured_item>img {
+    width: 100%;
+}
+
+
